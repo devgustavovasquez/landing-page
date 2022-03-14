@@ -1,7 +1,13 @@
-import './App.css';
+import * as Styled from './styles';
 
 const Home = () => {
-  return <h1>hello</h1>;
+  return (
+    <div>
+      <Styled.Wrapper background="pink">
+        <h1>hello</h1>;
+      </Styled.Wrapper>
+    </div>
+  );
 };
 
 export default Home;
