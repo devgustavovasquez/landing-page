@@ -8,8 +8,8 @@ import Home from './templates/App';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <GlobalStyles />
       <Home />
+      <GlobalStyles />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root'),
