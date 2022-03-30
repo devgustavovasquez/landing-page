@@ -66,4 +66,9 @@ describe('<Heading />', () => {
       'text-transform': 'uppercase',
     });
   });
+
+  test('should match snapshot', () => {
+    const { container } = renderTheme(<Heading uppercase>Children</Heading>);
+    expect(container).toMatchSnapshot();
+  });
 });
