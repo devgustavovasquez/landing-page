@@ -1,13 +1,9 @@
+import { Base } from '../Base';
+import { mockBase } from '../Base/stories';
 import * as Styled from './styles';
 
 const Home = () => {
-  return (
-    <div className="App">
-      <Styled.Wrapper>
-        <h1>hello</h1>
-      </Styled.Wrapper>
-    </div>
-  );
+  return <Base {...mockBase} />;
 };
 
 export default Home;
