@@ -36,7 +36,7 @@ function Home() {
       }
     };
     load();
-  }, []);
+  }, [location]);
 
   if (data === undefined) {
     return <PageNotFound />;
