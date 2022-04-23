@@ -5,6 +5,7 @@ exports[`<Menu /> should match snapshot 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c7 {
@@ -85,7 +86,7 @@ exports[`<Menu /> should match snapshot 1`] = `
 }
 
 .c8 > img {
-  max-height: 2.5rem;
+  height: 2.5rem;
 }
 
 .c9 {
